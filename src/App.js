@@ -1,3 +1,4 @@
+/*
 import React, {Component} from 'react';
 import './App.css';
 import logo from './logo.svg';
@@ -9,6 +10,21 @@ class App extends Component{
  return (
  <div className="App">
  <Content name="Jantapa" num="{x}"/>
+ </div>
+ );
+ }
+}
+export default App;
+*/
+
+
+import CharacterCard from './CharacterCard';
+class App extends Component {
+ render() {
+ return (
+ <div>
+ <CharacterCard value="h"/>
+<CharacterCard value="i"/>
  </div>
  );
  }
