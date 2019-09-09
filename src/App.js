@@ -6,10 +6,11 @@ import style from './App.css'
 
 
 
-let message = 'Hello'
+let message = 'HelloJan'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
   let chars = _.shuffle(Array.from(word))
+  
   return {
   word,
   chars,
@@ -62,7 +63,8 @@ class App extends React.Component {
         }
         <div>Attemp {this.state.attempt}</div>
         {
-          this.state.completed && <h4>completed</h4>
+            
+          this.state.completed && <h1>"Correct"</h1>
         
         }
         
