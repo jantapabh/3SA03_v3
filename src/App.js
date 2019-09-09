@@ -1,17 +1,18 @@
 
-import React, { Component } from 'react';
-import Content from './Content';
+import React, {Component} from 'react';
 import './App.css';
-import logo from './logo.svg'
+import logo from './logo.svg';
+import Content from './Content';
 
 let x = 10;
-class App extends Component (){
+class App extends Component{
  render() {
  return (
  <div className="App">
- <Content/>
+ <Content name="Jantapa" num="{x}"/>
  </div>
  );
+
  }
 }
 export default App;
