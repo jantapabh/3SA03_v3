@@ -6,10 +6,16 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 1em;
   user-select: none;
+  border: 2px solid blue;
  }
 
  .activeCard {
   color : green;
   background : burlywood;
+  border: 2px solid blue;
  } 
+ .dummyDiv {
+  background-color: red;
+  width: 200px;
+}
 

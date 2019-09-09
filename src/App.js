@@ -2,6 +2,7 @@ import React from 'react';
 import CharacterCard from './CharacterCard';
 import './App.css';
 import _ from 'lodash'
+import style from './App.css'
 
 
 
@@ -36,6 +37,7 @@ class App extends React.Component {
 
   render() {
     return (
+        
       <div>
         {
           Array.from(this.state.chars).map((item, index) => (
@@ -61,8 +63,12 @@ class App extends React.Component {
         <div>Attemp {this.state.attempt}</div>
         {
           this.state.completed && <h4>completed</h4>
+        
         }
+        
       </div>
+
+
     )
   }
 }
