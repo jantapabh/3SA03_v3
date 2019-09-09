@@ -50,7 +50,7 @@ class App extends React.Component {
           ))
 
         }
-        <h2>Selected</h2>
+        <h2>Choose</h2>
         {
           Array.from(this.state.guess).map((item, index) => (
             <CharacterCard
