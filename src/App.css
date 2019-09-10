@@ -1,5 +1,5 @@
 .card {
-  
+  display: inline-block;
   text-align: center;
   width: 3em;
   font-size: 2em;
@@ -10,6 +10,7 @@
  }
 
  .activeCard {
+  text-align: center;
   color : green;
   background : burlywood;
   border: 2px solid blue;
