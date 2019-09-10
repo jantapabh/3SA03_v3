@@ -6,7 +6,7 @@ import style from './App.css'
 
 
 
-let message = 'Hello'
+let message = 'HelloJ'
 const prepareStateFromWord = (given_word) => {
   let word = given_word.toUpperCase()
   let chars = _.shuffle(Array.from(word))
