@@ -3,6 +3,7 @@ import CharacterCard from './CharacterCard';
 import './App.css';
 import _ from 'lodash'
 import style from './App.css'
+import { Button } from 'reactstrap';
 
 
 
@@ -42,6 +43,8 @@ class App extends React.Component {
         
       <div>
         {
+
+<Button color="primary" size="lg">Large Button</Button>{' '}
           Array.from(this.state.chars).map((item, index) => (
             <CharacterCard
               value={item}
