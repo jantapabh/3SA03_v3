@@ -70,7 +70,7 @@ class App extends React.Component {
         <div>Attemp {this.state.attempt}</div>
         {
             
-          this.state.completed && <h1>"Correct"</h1>
+          this.state.completed && <h1>"Correct nowwwww"</h1>
         
         }
         
